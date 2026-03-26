@@ -19,8 +19,8 @@ Objetivos principales:
 - HP ProDesk 400 G6 Mini
   - Intel i5-10500T
     - 6 núcleos
-    -  12 subprecesos
-    -  Hyper-Threading
+    - 12 subprocesos
+    - Hyper-Threading
   - 24 GB RAM
   - SSD 500 GB
 
@@ -33,6 +33,9 @@ Objetivos principales:
 - VM OPNsense (firewall y routing)
 - Switch gestionable (TP-Link SG608E)
 - Punto de acceso WiFi (Huawei AX3)
+
+**Diagrama de red:**  
+![Diagrama de red](diagrams/network.png)
 
 ---
 
@@ -59,6 +62,9 @@ Objetivos principales:
   - Dashboard web
   - Web Server (Apache)
 
+**Arquitectura Proxmox:**  
+![Arquitectura Proxmox](diagrams/proxmox-architecture.png)
+
 ---
 
 ## 🏠 Automatización Domótica
@@ -67,19 +73,20 @@ Objetivos principales:
 - Dispositivos ESP8266, ESP32 y NodeMCU
 - Flujos Node-RED para automatización
 
----
-
-## 🎯 Objetivos
-
-- Evolucionar hacia prácticas DevOps
-- Automatizar despliegues y tareas
-- Mejorar monitorización y observabilidad
+**Flujos Node-RED:**  
+![Flujos Node-RED](diagrams/node-red-flows.png)
 
 ---
 
-## 🚀 Mejoras futuras
+## 🗂️ Estructura de carpetas del repo
 
-- Integración de Docker
-- Pipelines CI/CD
-- Infraestructura como código (Ansible / Terraform)
-- Monitorización avanzada (Prometheus + Grafana)
+```text
+homelab-infrastructure/
+│
+├── README.md
+├── diagrams/                 # Diagramas de red, VMs y flujos Node-RED
+├── configs/                  # Archivos de configuración de ejemplo
+│   ├── opnsense/
+│   ├── mqtt/
+│   └── apache/
+└── docs/                     # Documentación extra (manuales, notas)
