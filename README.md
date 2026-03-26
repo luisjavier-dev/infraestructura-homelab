@@ -35,7 +35,7 @@ Objetivos principales:
 - Punto de acceso WiFi (Huawei AX3)
 
 **Diagrama de red:**  
-![Diagrama de red](diagrams/network.png)
+![Diagrama de red](diagrams/Diagrama de Red.jpg)
 
 ---
 
