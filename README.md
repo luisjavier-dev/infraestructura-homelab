@@ -54,7 +54,7 @@ Objetivos principales:
   - Broker MQTT
   - Node-RED
   - Dashboard web
-  - Web Server
+  - Web Server (Apache)
 
 ---
 
