@@ -18,6 +18,9 @@ Objetivos principales:
 
 - HP ProDesk 400 G6 Mini
   - Intel i5-10500T
+    - 6 núcleos
+    -  12 subprecesos
+    -  Hyper-Threading
   - 24 GB RAM
   - SSD 500 GB
 
