@@ -42,12 +42,15 @@ Objetivos principales:
 
 ## 🌐 Rendimiento
 - Iperf en LAN
+  
 ![Diagrama de red](diagrams/RendimientoLAN.png)
 
 - Test de velocidad con SpeedTest Ethernet
+  
 ![Diagrama de red](diagrams/TestWanEth.png)
 
 - Test de velocidad con SpeedTest WiFi
+  
 ![Diagrama de red](diagrams/TestWanWiFi.png)
 ---
 
