@@ -42,7 +42,7 @@ Objetivos principales:
 
 ## 🌐 Rendimiento
 ![Diagrama de red](diagrams/RendimientoLAN.png)
-![Diagrama de red](diagrams/TestWanETh.png)
+![Diagrama de red](diagrams/TestWanEth.png)
 ![Diagrama de red](diagrams/TestWanWiFi.png)
 ---
 
