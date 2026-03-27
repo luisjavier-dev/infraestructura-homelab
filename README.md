@@ -51,7 +51,8 @@ Objetivos principales:
 
 - Test de velocidad con SpeedTest WiFi
   
-![Diagrama de red](diagrams/TestWanWiFi.png)
+![Diagrama de red](diagrams/TestWanWiFi.jpg)
+
 ---
 
 ## 🔐 Redes
