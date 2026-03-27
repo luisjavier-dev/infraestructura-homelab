@@ -22,7 +22,7 @@ Objetivos principales:
     - 12 subprocesos
     - Hyper-Threading
   - 24 GB RAM
-  - SSD 500 GB
+  - WD Blue SN580 500 GB NVMe
 
 ---
 
