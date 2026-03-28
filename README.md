@@ -89,8 +89,12 @@ Objetivos principales:
 - Dispositivos ESP8266, ESP32 y NodeMCU
 - Flujos Node-RED para automatización
 
-**Flujos Node-RED:**  
-![Flujos Node-RED](diagrams/node-red-flows.png)
+**Ejemplo de flujo Node-RED:**  
+- Este es un ejemplo de un flujo que gestiona el encendido de la Luz del salón. Disponemos de una LDR (resistencia variable con la luminosidad) conectada a una pata de un ESP32. En relación con la cantidad de luz recibida (ya sea de lámparas o bien luz diurna), nos envíará un true o un false que publicaremos por MQTT, indicándonos si hay oscuridad (true) o luz (false).
+- Por otro lado tengo un sensor MPU6050 (sensor giroscópico) instalado y fijado a la puerta de entrada de la vivienda. Este sensor al moverse la puerta en una dirección o en otra (apertura o cierre), genera dos eventos, uno para cada movimiento el cual también publicamos por MQTT.
+- Como disponemos de sensor de oscuridad por un lado y detección de apertura de puerta a la vivienda por otro, podemos mediante Node-Red y MQTT, gestionar un encendido automático de las luces al detectar una apertura y así obtener una especie de bienvenida.
+  
+![Flujos Node-RED](diagrams/DiagramaNodeRed.png)
 
 ---
 
