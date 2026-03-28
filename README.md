@@ -32,6 +32,7 @@ Objetivos principales:
 - Host Proxmox
 - VM OPNsense (firewall y routing)
 - Switch gestionable (TP-Link SG608E)
+- Red cableada a 1Gbps (UTP Cat.6)
 - Punto de acceso WiFi (Huawei AX3)
 
 **Diagrama de red:**  
