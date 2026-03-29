@@ -97,17 +97,3 @@ Objetivos principales:
   
 ![Flujos Node-RED](diagrams/DiagramaNodeRed.png)
 
----
-
-## 🗂️ Estructura de carpetas del repo
-
-```text
-homelab-infrastructure/
-│
-├── README.md
-├── diagrams/                 # Diagramas de red, VMs y flujos Node-RED
-├── configs/                  # Archivos de configuración de ejemplo
-│   ├── opnsense/
-│   ├── mqtt/
-│   └── apache/
-└── docs/                     # Documentación extra (manuales, notas)
