@@ -63,15 +63,33 @@ Objetivos principales:
 
 ---
 
-## 🧩 Virtualización (Proxmox)
-
-### Máquinas Virtuales
+## 🧩 Virtualización de máquinas virtuales (Proxmox)
 
 - OPNsense (Firewall y VPN)
 - Ubuntu Server (Samba NAS en RAID1)
 - Ubuntu Server (Jarvis AI – en desarrollo)
 
-### Contenedores (LXC)
+### ☁️ Servicio de nube privada
+
+Para el almacenamiento de datos se ha implementado un sistema de nube privada basado en almacenamiento redundante.
+
+- Se utilizan **2 discos duros mecánicos de 2TB** conectados por USB 3.0.
+- Configuración en **RAID1 (espejo)** para garantizar la integridad de los datos ante fallo de uno de los discos.
+- El sistema está gestionado mediante un servidor Linux, permitiendo compartir archivos en red local.
+
+#### 🧩 Características
+
+- Redundancia de datos (tolerancia a fallo de un disco)
+- Acceso desde la red local
+- Base para servicios adicionales (backups, almacenamiento centralizado, etc.)
+
+#### ⚠️ Consideraciones
+
+- El uso de discos USB introduce ciertas limitaciones frente a soluciones SATA (latencia y fiabilidad del bus).
+- RAID1 no sustituye a una estrategia de backup externo.
+<img src="/diagram/Nube.png" width="200px">
+
+### Contenedor (LXC)
 
 - Stack de automatización doméstica:
   - Broker MQTT
