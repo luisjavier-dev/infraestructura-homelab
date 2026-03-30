@@ -69,7 +69,7 @@ Objetivos principales:
 - Ubuntu Server (Samba NAS en RAID1)
 - Ubuntu Server (Jarvis AI – en desarrollo)
 
-### ☁️ Servicio de nube privada
+### Servicio de nube privada
 
 Para el almacenamiento de datos se ha implementado un sistema de nube privada basado en almacenamiento redundante.
 
