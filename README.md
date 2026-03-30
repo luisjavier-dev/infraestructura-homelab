@@ -99,6 +99,7 @@ Para el almacenamiento de datos se ha implementado un sistema de nube privada ba
   - Dashboard web
   - Web Server (Apache)
 
+---
 **Arquitectura Proxmox:**  
 ![Arquitectura Proxmox](diagrams/proxmox-architecture.png)
 
