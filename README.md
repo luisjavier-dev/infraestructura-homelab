@@ -87,7 +87,7 @@ Para el almacenamiento de datos se ha implementado un sistema de nube privada ba
 
 - El uso de discos USB introduce ciertas limitaciones frente a soluciones SATA (latencia y fiabilidad del bus).
 - RAID1 no sustituye a una estrategia de backup externo.
-<img src="/diagrams/Nube.png" width="200px">
+<img src="/diagrams/Nube.png" width="400px">
 
 ### Contenedor (LXC)
 
