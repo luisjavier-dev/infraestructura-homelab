@@ -83,11 +83,13 @@ Para el almacenamiento de datos se ha implementado un sistema de nube privada ba
 - Acceso desde la red local
 - Base para servicios adicionales (backups, almacenamiento centralizado, etc.)
 
+<img src="/diagrams/Nube.png" width="400px">
+
 #### ⚠️ Consideraciones
 
 - El uso de discos USB introduce ciertas limitaciones frente a soluciones SATA (latencia y fiabilidad del bus).
 - RAID1 no sustituye a una estrategia de backup externo.
-<img src="/diagrams/Nube.png" width="400px">
+  
 
 ### Contenedor (LXC)
 
